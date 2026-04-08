@@ -1,0 +1,10 @@
+spring:
+  security:
+    user:
+      name: admin
+      password: 123456
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.102.104.8:10806/spring_security?useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
